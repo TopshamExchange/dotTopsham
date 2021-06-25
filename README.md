@@ -29,12 +29,18 @@ cp /etc/hosts /etc/hosts.backup && wget --no-check-certificate --content-disposi
 
 
 Windows: 
+
 C:\Windows\System32\drivers\etc\hosts
 
 set url=https://raw.githubusercontent.com/TopshamExchange/dotTopsham/main/hosts.topsham
+
 set file=hosts.topsham
+
 certutil -urlcache -split -f %url% %file%
+
 echo Done.
+
+
 
 The above code may work on Win10+ machines. 
 Otherwise you could rename your hosts file, and copy it's contents into topsham.hosts at the top?
