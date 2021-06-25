@@ -13,7 +13,7 @@ Topsham Local Exchange;
 Steve Black's Host File; 
  https://github.com/StevenBlack/hosts
 
-Meshworks @ The MeshWorks Trust (Sark).
+MeshWorks @ The MeshWorks Trust (Sark).
 
 Instructions:
 Copy the contents of "hosts.topsham" file ^^ into your "hosts" file...
