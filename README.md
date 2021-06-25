@@ -43,7 +43,7 @@ echo Done.
 
 
 The above code may work on Win10+ machines. 
-Otherwise you could rename your hosts file, and copy it's contents into topsham.hosts at the top?
+Otherwise you could rename your hosts file, and copy the contents into topsham.hosts at the top and overwrite your exixting hosos???
 ... good luck with that.
 
 
