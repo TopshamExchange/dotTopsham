@@ -8,20 +8,12 @@ Topsham LETS
 The Topsham Pound
 
 Topsham Local Exchange; 
- http://topsham/
+ http://topsex.topsham/
 
-Steve Black AdBlocker; 
+Steve Black's Host File; 
  https://github.com/StevenBlack/hosts
 
 Meshworks @ The MeshWorks Trust (Sark).
-
-Maybe you forgot to join a network?
-Some instructions below ...
-
-@ DOT topsham
-https://github.com/TopshamExchange/dotTopsham/blob/main/hosts.topsham
-...or...
-Mirrors  & other TLD's soon.
 
 Instructions:
 Copy the contents of "hosts.topsham" file ^^ into your "hosts" file...
