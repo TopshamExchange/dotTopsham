@@ -20,7 +20,9 @@ Copy the contents of "hosts.topsham" file ^^ into your "hosts" file...
 ... then restart your browser, and visit:
 http://topsham/
 
-Linux / Android / MacOS :  \etc\hosts
+Linux / Android / MacOS :  
+\etc\hosts
+
 The command below will add the dotTopsham TLD
 to the bottom of your hosts file:
 
