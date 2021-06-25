@@ -23,8 +23,7 @@ http://topsham/
 Linux / Android / MacOS :  
 \etc\hosts
 
-The command below will add the dotTopsham TLD
-to the bottom of your hosts file:
+The command below (*nix only) will add the dotTopsham TLD to the bottom of your hosts file:
 
 cp /etc/hosts /etc/hosts.backup && wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/TopshamExchange/dotTopsham/main/hosts.topsham -O ->> /etc/hosts
 
