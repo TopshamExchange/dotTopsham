@@ -21,7 +21,7 @@ Copy the contents of "hosts.topsham" file ^^ into your "hosts" file...
 http://topsham/
 
 
-Linux / Android / MacOS: \etc\hosts
+Linux / Android / MacOS: /etc/hosts
 
 
 The command below (*nix only) will add the dotTopsham TLD to the bottom of your hosts file:
@@ -32,6 +32,7 @@ cp /etc/hosts /etc/hosts.backup && wget --no-check-certificate --content-disposi
 
 
 Windows 10+: C:\Windows\System32\drivers\etc\hosts
+The commands below (Win10+ Only) MAY do the job?
 
 
 set url=https://raw.githubusercontent.com/TopshamExchange/dotTopsham/main/hosts.topsham
