@@ -32,6 +32,7 @@ cp /etc/hosts /etc/hosts.backup && wget --no-check-certificate --content-disposi
 
 
 Windows 10+: C:\Windows\System32\drivers\etc\hosts
+
 The commands below (Win10+ Only) MAY do the job?
 
 
