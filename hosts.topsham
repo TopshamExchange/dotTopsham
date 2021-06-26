@@ -1,0 +1,82 @@
+
+# End of custom host records.
+
+
+##############################################################################################################################
+#dot TOPSHAM UNDERNET core
+##############################################################################################################################
+
+#dot TOPSHAM UNDERNET
+85.210.138.105 topsham
+#currently disabled external tld because exedevs are operating it.
+#85.210.138.105 www.topsham www.topsham.com
+ 
+#topsham tld
+85.210.138.105 topsham.topsham tld.topsham
+
+#topsham services
+85.210.138.105 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
+
+
+##############################################################################################################################
+#@www external domains 
+##############################################################################################################################
+
+#meshworks hosted domains
+
+#topsex @www hosted domains
+85.210.138.105 topsex.uk cerberus.topsex.uk topsham.topsex.uk
+85.210.138.105 www.topsex.uk www.cerberus.topsex.uk www.topsham.topsex.uk
+
+#litchlight dot com
+85.210.138.105 www.litchlight.com litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
+#warden server currently disabled
+0.0.0.0 dog.litchlight.com
+
+
+##############################################################################################################################
+#dot TOPSHAM UNDERNET main grid
+##############################################################################################################################
+
+
+#exedevs 
+134.209.29.32 exedevs.topsham
+
+#litchlight warcraft @ topsham
+85.210.138.105 litchlight.topsham
+85.210.138.105 warcraft.topsham
+
+#meshworks @ topsham
+85.210.138.105 meshworks.topsham
+
+#topsex @ topsham 
+85.210.138.105 topsex.topsham 
+85.210.138.105 thetopshamexchange.topsham
+
+#trouts @ topsham 
+85.210.138.105 trouts.topsham
+ 
+#cyclos server @ topsham
+18.184.180.143 cyclos.topsham
+18.184.180.143 topsex.cyclos.topsham
+18.184.180.143 ec2-18-184-180-143.eu-central-1.compute.amazonaws.com
+
+
+################################################################################################################################
+#BANNED... of course you can unban them on your side by removing the entries below!
+################################################################################################################################
+
+#lavishsoft banned
+# reason = bot software
+127.0.0.1 auth1.lavishsoft.com
+127.0.0.1 auth2.lavishsoft.com
+
+#honorbuddy 335a
+#reason = bot software
+127.0.0.1 www.buddynav.de
+127.0.0.1 nav.buddyauthcn.com 
+
+
+################################################################################################################################
+
+
