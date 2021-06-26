@@ -28,19 +28,13 @@ The command below (*nix only) will add the dotTopsham TLD to the bottom of your 
 cp /etc/hosts /etc/hosts.backup && wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/TopshamExchange/dotTopsham/main/hosts.topsham -O ->> /etc/hosts
 
 
-Windows: 
+Windows 10+: 
 
 C:\Windows\System32\drivers\etc\hosts
-
 set url=https://raw.githubusercontent.com/TopshamExchange/dotTopsham/main/hosts.topsham
-
 set file=hosts.topsham
-
 certutil -urlcache -split -f %url% %file%
-
 echo Done.
-
-
 
 The above code may work on Win10+ machines. 
 Otherwise you could rename your hosts file, and copy the contents into topsham.hosts at the top and overwrite your exixting hosos???
