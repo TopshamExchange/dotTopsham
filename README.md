@@ -20,17 +20,19 @@ Copy the contents of "hosts.topsham" file ^^ into your "hosts" file...
 ... then restart your browser, and visit:
 http://topsham/
 
-Linux / Android / MacOS:  
-\etc\hosts
+
+Linux / Android / MacOS: \etc\hosts
+
 
 The command below (*nix only) will add the dotTopsham TLD to the bottom of your hosts file:
 
 cp /etc/hosts /etc/hosts.backup && wget --no-check-certificate --content-disposition https://raw.githubusercontent.com/TopshamExchange/dotTopsham/main/hosts.topsham -O ->> /etc/hosts
 
 
-Windows 10+: 
 
-C:\Windows\System32\drivers\etc\hosts
+
+Windows 10+: C:\Windows\System32\drivers\etc\hosts
+
 
 set url=https://raw.githubusercontent.com/TopshamExchange/dotTopsham/main/hosts.topsham
 
