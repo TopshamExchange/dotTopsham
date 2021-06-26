@@ -8,7 +8,8 @@ Topsham LETS
 The Topsham Pound
 
 Topsham Local Exchange; 
- http://topsex.topsham/
+
+ http://topsex.topsham/ or https://communities.cyclos.org/topsex/
 
 Steve Black's Host File; 
  https://github.com/StevenBlack/hosts
