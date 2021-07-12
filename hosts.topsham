@@ -1,49 +1,84 @@
+########################################################################
+#dot TOPSHAM UNDERNET CORE
+########################################################################
 
-# End of custom host records.
-
-
-##############################################################################################################################
-#dot TOPSHAM UNDERNET core
-##############################################################################################################################
+#primary / cloudflare hostname here
+92.17.99.162 cerberus.topsham
 
 #dot TOPSHAM UNDERNET
-85.210.138.105 topsham
-#currently disabled external tld because exedevs are operating it.
-#85.210.138.105 www.topsham www.topsham.com
- 
-#topsham tld
-85.210.138.105 topsham.topsham tld.topsham
+92.17.99.162 topsham
+
+#topsham tld 
+92.17.99.162 topsham.topsham tld.topsham
 
 #topsham services
-85.210.138.105 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
+92.17.99.162 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
 
 
-##############################################################################################################################
-#@www external domains 
-##############################################################################################################################
 
-#meshworks hosted domains
-
-#topsex @www hosted domains
-85.210.138.105 topsex.uk cerberus.topsex.uk topsham.topsex.uk
-85.210.138.105 www.topsex.uk www.cerberus.topsex.uk www.topsham.topsex.uk
-
-#litchlight dot com
-85.210.138.105 www.litchlight.com litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
-#warden server currently disabled
-0.0.0.0 dog.litchlight.com
-
-
-##############################################################################################################################
+########################################################################
 #dot TOPSHAM UNDERNET main grid
-##############################################################################################################################
-
+########################################################################
 
 #exedevs 
 134.209.29.32 exedevs.topsham
 
 #litchlight warcraft @ topsham
-85.210.138.105 litchlight.topsham
+92.17.99.162 litchlight.topsham
+92.17.99.162 warcraft.topsham
+
+#meshworks @ topsham
+92.17.99.162 meshworks.topsham
+
+#topsex @ topsham 
+92.17.99.162 topsex.topsham 
+92.17.99.162 thetopshamexchange.topsham
+
+#trouts @ topsham 
+92.17.99.162 trouts.topsham
+ 
+#cyclos server @ topsham
+18.184.180.143 cyclos.topsham
+18.184.180.143 topsex.cyclos.topsham
+18.184.180.143 ec2-18-184-180-143.eu-central-1.compute.amazonaws.com
+
+
+########################################################################
+#BANNED... of course you can unban them on your side by removing the entries below!
+########################################################################
+
+#lavishsoft banned
+# reason = bot software
+0.0.0.0 auth1.lavishsoft.com
+0.0.0.0 auth2.lavishsoft.com
+
+#honorbuddy 335a
+#reason = bot software
+0.0.0.0 www.buddynav.de
+0.0.0.0 nav.buddyauthcn.com 
+
+#reason = botnet scanner software
+0.0.0.0 ec2-52-71-255-245.compute-1.amazonaws.com
+
+########################################################################
+
+#new domains
+92.17.99.162 dartmarine.dartmouth
+
+#locally hosted domains
+
+#topsex dot uk
+92.17.99.162 topsex.uk www.topsex.uk topsham.topsex.uk
+ 
+#litchlight dot com
+92.17.99.162 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
+#local watchdog server currently disabled
+0.0.0.0 dog.litchlight.com
+
+########################################################################
+# End of custom host records.
+########################################################################
+
 85.210.138.105 warcraft.topsham
 
 #meshworks @ topsham
