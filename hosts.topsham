@@ -1,18 +1,19 @@
+
 ########################################################################
 #dot TOPSHAM UNDERNET CORE
 ########################################################################
 
 #primary / cloudflare hostname here
-92.17.99.162 cerberus.topsham
+212.159.164.76 cerberus.topsham
 
 #dot TOPSHAM UNDERNET
-92.17.99.162 topsham
+212.159.164.76 topsham
 
 #topsham tld 
-92.17.99.162 topsham.topsham tld.topsham
+212.159.164.76 topsham.topsham tld.topsham
 
 #topsham services
-92.17.99.162 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
+212.159.164.76 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
 
 
 
@@ -24,18 +25,18 @@
 134.209.29.32 exedevs.topsham
 
 #litchlight warcraft @ topsham
-92.17.99.162 litchlight.topsham
-92.17.99.162 warcraft.topsham
+212.159.164.76 litchlight.topsham
+212.159.164.76 warcraft.topsham
 
 #meshworks @ topsham
-92.17.99.162 meshworks.topsham
+212.159.164.76 meshworks.topsham
 
 #topsex @ topsham 
-92.17.99.162 topsex.topsham 
-92.17.99.162 thetopshamexchange.topsham
+212.159.164.76 topsex.topsham 
+212.159.164.76 thetopshamexchange.topsham
 
 #trouts @ topsham 
-92.17.99.162 trouts.topsham
+212.159.164.76 trouts.topsham
  
 #cyclos server @ topsham
 18.184.180.143 cyclos.topsham
@@ -63,55 +64,18 @@
 ########################################################################
 
 #new domains
-92.17.99.162 dartmarine.dartmouth
+212.159.164.76 dartmarine.dartmouth
 
 #locally hosted domains
 
 #topsex dot uk
-92.17.99.162 topsex.uk www.topsex.uk topsham.topsex.uk
+212.159.164.76 topsex.uk www.topsex.uk topsham.topsex.uk
  
 #litchlight dot com
-92.17.99.162 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
+212.159.164.76 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
 #local watchdog server currently disabled
 0.0.0.0 dog.litchlight.com
 
 ########################################################################
 # End of custom host records.
 ########################################################################
-
-85.210.138.105 warcraft.topsham
-
-#meshworks @ topsham
-85.210.138.105 meshworks.topsham
-
-#topsex @ topsham 
-85.210.138.105 topsex.topsham 
-85.210.138.105 thetopshamexchange.topsham
-
-#trouts @ topsham 
-85.210.138.105 trouts.topsham
- 
-#cyclos server @ topsham
-18.184.180.143 cyclos.topsham
-18.184.180.143 topsex.cyclos.topsham
-18.184.180.143 ec2-18-184-180-143.eu-central-1.compute.amazonaws.com
-
-
-################################################################################################################################
-#BANNED... of course you can unban them on your side by removing the entries below!
-################################################################################################################################
-
-#lavishsoft banned
-# reason = bot software
-127.0.0.1 auth1.lavishsoft.com
-127.0.0.1 auth2.lavishsoft.com
-
-#honorbuddy 335a
-#reason = bot software
-127.0.0.1 www.buddynav.de
-127.0.0.1 nav.buddyauthcn.com 
-
-
-################################################################################################################################
-
-
