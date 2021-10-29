@@ -4,16 +4,16 @@
 ########################################################################
 
 #primary / cloudflare hostname here
-212.159.164.76 cerberus.topsham
+83.216.137.81 cerberus.topsham
 
 #dot TOPSHAM UNDERNET
-212.159.164.76 topsham
+83.216.137.81 topsham
 
 #topsham tld 
-212.159.164.76 topsham.topsham tld.topsham
+83.216.137.81 topsham.topsham tld.topsham
 
 #topsham services
-212.159.164.76 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
+83.216.137.81 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
 
 
 
@@ -25,18 +25,18 @@
 134.209.29.32 exedevs.topsham
 
 #litchlight warcraft @ topsham
-212.159.164.76 litchlight.topsham
-212.159.164.76 warcraft.topsham
+83.216.137.81 litchlight.topsham
+83.216.137.81 warcraft.topsham
 
 #meshworks @ topsham
-212.159.164.76 meshworks.topsham
+83.216.137.81 meshworks.topsham
 
 #topsex @ topsham 
-212.159.164.76 topsex.topsham 
-212.159.164.76 thetopshamexchange.topsham
+83.216.137.81 topsex.topsham 
+83.216.137.81 thetopshamexchange.topsham
 
 #trouts @ topsham 
-212.159.164.76 trouts.topsham
+83.216.137.81 trouts.topsham
  
 #cyclos server @ topsham
 18.184.180.143 cyclos.topsham
@@ -66,18 +66,17 @@
 #new domains
 
 #rhp 
-212.159.164.76 reelhasallandpayne reelhasallandpayne.com www.reelhasallandpayne.com rhandp.topsham reelhasallandpayne.topsham
+83.216.137.81 reelhasallandpayne reelhasallandpayne.com www.reelhasallandpayne.com rhandp.topsham reelhasallandpayne.topsham
 
-#dart marine
-212.159.164.76 dartmarine.dartmouth
+83.216.137.81 dartmarine.dartmouth
 
 #locally hosted domains
 
 #topsex dot uk
-212.159.164.76 topsex topsex.uk www.topsex.uk topsham.topsex.uk
+83.216.137.81 topsex.uk www.topsex.uk topsham.topsex.uk
  
 #litchlight dot com
-212.159.164.76 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
+83.216.137.81 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
 #local watchdog server currently disabled
 0.0.0.0 dog.litchlight.com
 
