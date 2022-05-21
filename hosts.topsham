@@ -4,16 +4,16 @@
 ########################################################################
 
 #primary / cloudflare hostname here
-92.17.100.2 cerberus.topsham
+80.47.104.20 cerberus.topsham
 
 #dot TOPSHAM UNDERNET
-92.17.100.2 topsham
+80.47.104.20 topsham
 
 #topsham tld 
-92.17.100.2 topsham.topsham tld.topsham
+80.47.104.20 topsham.topsham tld.topsham
 
 #topsham services
-92.17.100.2 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
+80.47.104.20 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
 
 
 
@@ -25,18 +25,18 @@
 134.209.29.32 exedevs.topsham
 
 #litchlight warcraft @ topsham
-92.17.100.2 litchlight.topsham
-92.17.100.2 warcraft.topsham
+80.47.104.20 litchlight.topsham
+80.47.104.20 warcraft.topsham
 
 #meshworks @ topsham
-92.17.100.2 meshworks.topsham
+80.47.104.20 meshworks.topsham
 
 #topsex @ topsham 
-92.17.100.2 topsex.topsham 
-92.17.100.2 thetopshamexchange.topsham
+80.47.104.20 topsex.topsham 
+80.47.104.20 thetopshamexchange.topsham
 
 #trouts @ topsham 
-92.17.100.2 trouts.topsham
+80.47.104.20 trouts.topsham
  
 #cyclos server @ topsham
 18.184.180.143 cyclos.topsham
@@ -66,17 +66,17 @@
 #new domains
 
 #rhp 
-92.17.100.2 reelhasallandpayne reelhasallandpayne.topsham www.reelhasallandpayne.topsham
+80.47.104.20 reelhasallandpayne reelhasallandpayne.topsham www.reelhasallandpayne.topsham
 
-92.17.100.2 dartmarine.dartmouth
+80.47.104.20 dartmarine.dartmouth
 
 #locally hosted domains
 
 #topsex dot uk
-92.17.100.2 topsex.uk www.topsex.uk topsham.topsex.uk
+80.47.104.20 topsex.uk www.topsex.uk topsham.topsex.uk
  
 #litchlight dot com
-92.17.100.2 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
+80.47.104.20 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
 #local watchdog server currently disabled
 0.0.0.0 dog.litchlight.com
 
