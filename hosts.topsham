@@ -4,16 +4,16 @@
 ########################################################################
 
 #primary / cloudflare hostname here
-80.47.104.63 cerberus.topsham
+92.17.98.6 cerberus.topsham
 
 #dot TOPSHAM UNDERNET
-80.47.104.63 topsham
+92.17.98.6 topsham
 
 #topsham tld 
-80.47.104.63 topsham.topsham tld.topsham
+92.17.98.6 topsham.topsham tld.topsham
 
 #topsham services
-80.47.104.63 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
+92.17.98.6 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
 
 
 
@@ -25,18 +25,18 @@
 134.209.29.32 exedevs.topsham
 
 #litchlight warcraft @ topsham
-80.47.104.63 litchlight.topsham
-80.47.104.63 warcraft.topsham
+92.17.98.6 litchlight.topsham
+92.17.98.6 warcraft.topsham
 
 #meshworks @ topsham
-80.47.104.63 meshworks.topsham
+92.17.98.6 meshworks.topsham
 
 #topsex @ topsham 
-80.47.104.63 topsex.topsham 
-80.47.104.63 thetopshamexchange.topsham
+92.17.98.6 topsex.topsham 
+92.17.98.6 thetopshamexchange.topsham
 
 #trouts @ topsham 
-80.47.104.63 trouts.topsham
+92.17.98.6 trouts.topsham
  
 #cyclos server @ topsham
 18.184.180.143 cyclos.topsham
@@ -66,17 +66,17 @@
 #new domains
 
 #rhp 
-80.47.104.63 reelhasallandpayne reelhasallandpayne.topsham www.reelhasallandpayne.topsham
+92.17.98.6 reelhasallandpayne reelhasallandpayne.topsham www.reelhasallandpayne.topsham
 
-80.47.104.63 dartmarine.dartmouth
+92.17.98.6 dartmarine.dartmouth
 
 #locally hosted domains
 
 #topsex dot uk
-80.47.104.63 topsex.uk www.topsex.uk topsham.topsex.uk
+92.17.98.6 topsex.uk www.topsex.uk topsham.topsex.uk
  
 #litchlight dot com
-80.47.104.63 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
+92.17.98.6 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
 #local watchdog server currently disabled
 0.0.0.0 dog.litchlight.com
 
