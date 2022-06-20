@@ -4,16 +4,16 @@
 ########################################################################
 
 #primary / cloudflare hostname here
-92.17.100.136 cerberus.topsham
+92.17.101.74 cerberus.topsham
 
 #dot TOPSHAM UNDERNET
-92.17.100.136 topsham
+92.17.101.74 topsham
 
 #topsham tld 
-92.17.100.136 topsham.topsham tld.topsham
+92.17.101.74 topsham.topsham tld.topsham
 
 #topsham services
-92.17.100.136 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
+92.17.101.74 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
 
 
 
@@ -25,18 +25,18 @@
 134.209.29.32 exedevs.topsham
 
 #litchlight warcraft @ topsham
-92.17.100.136 litchlight.topsham
-92.17.100.136 warcraft.topsham
+92.17.101.74 litchlight.topsham
+92.17.101.74 warcraft.topsham
 
 #meshworks @ topsham
-92.17.100.136 meshworks.topsham
+92.17.101.74 meshworks.topsham
 
 #topsex @ topsham 
-92.17.100.136 topsex.topsham 
-92.17.100.136 thetopshamexchange.topsham
+92.17.101.74 topsex.topsham 
+92.17.101.74 thetopshamexchange.topsham
 
 #trouts @ topsham 
-92.17.100.136 trouts.topsham
+92.17.101.74 trouts.topsham
  
 #cyclos server @ topsham
 18.184.180.143 cyclos.topsham
@@ -66,17 +66,17 @@
 #new domains
 
 #rhp 
-92.17.100.136 reelhasallandpayne reelhasallandpayne.topsham www.reelhasallandpayne.topsham
+92.17.101.74 reelhasallandpayne reelhasallandpayne.topsham www.reelhasallandpayne.topsham
 
-92.17.100.136 dartmarine.dartmouth
+92.17.101.74 dartmarine.dartmouth
 
 #locally hosted domains
 
 #topsex dot uk
-92.17.100.136 topsex.uk www.topsex.uk topsham.topsex.uk
+92.17.101.74 topsex.uk www.topsex.uk topsham.topsex.uk
  
 #litchlight dot com
-92.17.100.136 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
+92.17.101.74 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
 #local watchdog server currently disabled
 0.0.0.0 dog.litchlight.com
 
