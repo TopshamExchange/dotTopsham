@@ -26,7 +26,6 @@
 
 #litchlight warcraft @ topsham
 92.27.117.115 litchlight.topsham
-92.27.117.115 warcraft.topsham
 
 #meshworks @ topsham
 92.27.117.115 meshworks.topsham
@@ -35,13 +34,149 @@
 92.27.117.115 topsex.topsham 
 92.27.117.115 thetopshamexchange.topsham
 
-#trouts @ topsham 
-92.27.117.115 trouts.topsham
- 
 #cyclos server @ topsham
 18.184.180.143 cyclos.topsham
 18.184.180.143 topsex.cyclos.topsham
 18.184.180.143 ec2-18-184-180-143.eu-central-1.compute.amazonaws.com
+
+
+########################################################################
+#dotTopsham new domains
+########################################################################
+
+#trouts @ topsham 
+92.27.117.115 trouts trouts.topsham www.trouts.topsham
+ 
+#quidproquo @ qpq 
+92.27.117.115 quidproquo quidproquo.topsham www.quidproquo.topsham
+
+#rhp 
+92.27.117.115 reelhasallandpayne reelhasallandpayne.topsham www.reelhasallandpayne.topsham
+
+#dart marine
+92.27.117.115 dartmarine.dartmouth
+
+#locally hosted domains
+
+#topsex dot uk (CONTRARIAN)
+92.27.117.115 topsex.uk www.topsex.uk topsham.topsex.uk
+ 
+#litchlight dot com (CONTRARIAN)
+92.27.117.115 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
+#local watchdog server currently disabled
+0.0.0.0 dog.litchlight.com
+
+
+
+########################################################################
+# MeshWorks Grid 20230206
+########################################################################
+
+
+########################################################################
+# dotAndrasta UNDERNET CORE
+########################################################################
+
+#primary / cloudflare hostname here
+92.27.117.115 cerberus.andrasta
+
+#dot andrasta UNDERNET
+92.27.117.115 andrasta
+
+#andrasta tld 
+92.27.117.115 andrasta.andrasta tld.andrasta andrasta.gov www.andrasta.gov
+
+#andrasta services
+92.27.117.115 admin.andrasta search.andrasta smtp.andrasta mail.andrasta games.andrasta dns.andrasta cloud.andrasta docker.andrasta hosts.andrasta
+
+########################################################################
+
+# ANDRASTA DOMAINS
+
+92.27.117.115 earthside.andrasta www.earthside.andrasta
+
+92.27.117.115 ops.andrasta www.ops.andrasta
+
+
+########################################################################
+#dotSark UNDERNET CORE
+########################################################################
+
+#primary / cloudflare hostname here
+92.27.117.115 cerberus.sark
+
+#dot sark UNDERNET
+92.27.117.115 sark
+
+#sark tld 
+92.27.117.115 sark.sark tld.sark sark.gov www.sark.sark www.tld.sark www.sark.gov
+
+#sark services
+92.27.117.115 admin.sark search.sark smtp.sark mail.sark games.sark dns.sark cloud.sark docker.sark hosts.sark
+92.27.117.115 www.admin.sark www.search.sark www.smtp.sark www.mail.sark www.games.sark www.dns.sark www.cloud.sark www.docker.sark www.hosts.sark
+
+########################################################################
+
+#sark domains
+
+92.27.117.115 box404.sark www.box404.sark
+92.27.117.115 reelhasallandpayne.sark www.reelhasallandpayne.sark
+92.27.117.115 jba.sark www.jba.sark
+
+########################################################################
+
+
+
+########################################################################
+#dotRockall (Sgeir Rocail) UNDERNET CORE
+########################################################################
+
+#primary / cloudflare hostname here
+92.27.117.115 cerberus.rockall
+
+#dot rockall UNDERNET
+92.27.117.115 rockall
+
+#rockall tld 
+92.27.117.115 rockall.rockall tld.rockall rockall.gov www.rockall.rockall www.tld.rockall www.rockall.gov
+
+#sark rockall
+92.27.117.115 admin.rockall search.rockall smtp.rockall mail.rockall games.rockall dns.rockall cloud.rockall docker.rockall hosts.rockall
+92.27.117.115 www.admin.rockall www.search.rockall www.smtp.rockall www.mail.rockall www.games.rockall www.dns.rockall www.cloud.rockall www.docker.rockall www.hosts.rockall
+
+
+########################################################################
+
+#rockall domains
+
+########################################################################
+# www.Sgeir-Rocail.Org.Uk
+# contrarian domain
+########################################################################
+
+92.27.117.115 www.sgeir-rocail.org.uk sgeir-rocail.org.uk 
+
+########################################################################
+
+
+
+########################################################################
+# End of custom host records.
+########################################################################
+
+#google fixes
+0.0.0.0 www.gstatic.com
+
+#ms fixes
+0.0.0.0 bat.bing.com
+
+# other fixes
+0.0.0.0 cdn.streamroot.io
+0.0.0.0 api.ezvizlife.com
+0.0.0.0 www.ezviz7.com
+0.0.0.0 ezvizportal-1414028875.us-east-1.elb.amazonaws.com
+0.0.0.0 unagi.amazon.com
+0.0.0.0 fls-na.amazon.com
 
 
 ########################################################################
@@ -50,8 +185,8 @@
 
 #lavishsoft banned
 # reason = bot software
-0.0.0.0 auth1.lavishsoft.com
-0.0.0.0 auth2.lavishsoft.com
+127.0.0.1 auth1.lavishsoft.com
+127.0.0.1 auth2.lavishsoft.com
 
 #honorbuddy 335a
 #reason = bot software
@@ -63,23 +198,6 @@
 
 ########################################################################
 
-#new domains
 
-#rhp 
-92.27.117.115 reelhasallandpayne reelhasallandpayne.topsham www.reelhasallandpayne.topsham
 
-92.27.117.115 dartmarine.dartmouth
-
-#locally hosted domains
-
-#topsex dot uk
-92.27.117.115 topsex.uk www.topsex.uk topsham.topsex.uk
- 
-#litchlight dot com
-92.27.117.115 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
-#local watchdog server currently disabled
-0.0.0.0 dog.litchlight.com
-
-########################################################################
 # End of custom host records.
-########################################################################
