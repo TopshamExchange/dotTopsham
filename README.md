@@ -22,8 +22,8 @@ Copy the contents of "hosts.topsham" file ^^ into your "hosts" file...
 http://topsham/
 
 
-Linux / Android / MacOS: /etc/hosts
-
+Linux / Android / MacOS / Other: 
+/etc/hosts
 
 The command below (*nix only) will add the dotTopsham TLD to the bottom of your hosts file:
 
@@ -32,7 +32,8 @@ sudo cp /etc/hosts /etc/hosts.backup && wget --no-check-certificate --content-di
 
 
 
-Windows 10+: C:\Windows\System32\drivers\etc\hosts
+Microsoft Windows NT4 and above (eg. Win10): 
+C:\Windows\System32\drivers\etc\hosts
 
 The commands below (Win10+ Only) MAY do the job?
 
@@ -46,8 +47,11 @@ certutil -urlcache -split -f %url% %file%
 echo Done.
 
 
-The above code may work on Win10+ machines. 
-Otherwise you could rename / overwrite your hosts file, and copy the contents of topsham.hosts at the bottom?
-... good luck with that.
+
+The above code (copied into a .bat file and executed with ADMINISTRATOR rights) may work on Win10+ machines. 
+
+Otherwise you could open the 'hosts' file WITH ADMINISTRATOR ACCESS
+then copy and paste the contents of 'topsham.hosts' ^^ to the bottom of that file.
+Save 'hosts', and restart your browser.
 
 
