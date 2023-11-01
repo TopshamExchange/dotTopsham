@@ -67,8 +67,13 @@
 92.27.117.115 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
 #local watchdog server currently disabled
 0.0.0.0 dog.litchlight.com
+192.168.18.102 thewhitelotus.litchlight.com
+6.6.6.6 thedarklotus.litchlight.com
 
 
+#SWCH dot CRANES (CONTRARIAN)
+92.27.117.115 swch.cranes www.swch.cranes 
+ 
 
 ########################################################################
 # MeshWorks Grid 20230206
@@ -96,8 +101,12 @@
 # ANDRASTA DOMAINS
 
 92.27.117.115 earthside.andrasta www.earthside.andrasta
-
 92.27.117.115 ops.andrasta www.ops.andrasta
+
+
+#dotIsland TLD (Contrarian-Extended)
+92.27.117.115 orbital.islands www.orbital.islands
+
 
 
 ########################################################################
@@ -165,41 +174,3 @@
 ########################################################################
 # End of custom host records.
 ########################################################################
-
-#google fixes
-0.0.0.0 www.gstatic.com
-
-#ms fixes
-0.0.0.0 bat.bing.com
-
-# other fixes
-0.0.0.0 cdn.streamroot.io
-0.0.0.0 api.ezvizlife.com
-0.0.0.0 www.ezviz7.com
-0.0.0.0 ezvizportal-1414028875.us-east-1.elb.amazonaws.com
-0.0.0.0 unagi.amazon.com
-0.0.0.0 fls-na.amazon.com
-
-
-########################################################################
-#BANNED... of course you can unban them on your side by removing the entries below!
-########################################################################
-
-#lavishsoft banned
-# reason = bot software
-127.0.0.1 auth1.lavishsoft.com
-127.0.0.1 auth2.lavishsoft.com
-
-#honorbuddy 335a
-#reason = bot software
-0.0.0.0 www.buddynav.de
-0.0.0.0 nav.buddyauthcn.com 
-
-#reason = botnet scanner software
-0.0.0.0 ec2-52-71-255-245.compute-1.amazonaws.com
-
-########################################################################
-
-
-
-# End of custom host records.
