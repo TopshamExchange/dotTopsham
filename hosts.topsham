@@ -6,17 +6,25 @@
 ########################################################################
 
 #primary / cloudflare hostname here
+92.27.117.115 cerberus
 92.27.117.115 cerberus.topsham
+
+#secondary / cloudflare hostname here
+13.40.197.66 persephonie
+13.40.197.66 persephonie.topsham
+
+#tertiary / cloudflare hostname here
+172.31.38.246 heraclese
+172.31.38.246 heraclese.topsham
 
 #dot TOPSHAM UNDERNET
 92.27.117.115 topsham
 
 #topsham tld 
-92.27.117.115 topsham.topsham tld.topsham
+92.27.117.115 topsham.topsham tld.topsham www.topsham
 
 #topsham services
 92.27.117.115 admin.topsham search.topsham smtp.topsham mail.topsham games.topsham dns.topsham cloud.topsham docker.topsham hosts.topsham
-
 
 
 ########################################################################
@@ -27,7 +35,7 @@
 134.209.29.32 exedevs.topsham
 
 #litchlight warcraft @ topsham
-92.27.117.115 litchlight.topsham
+13.40.197.66 litchlight.topsham
 
 #meshworks @ topsham
 92.27.117.115 meshworks.topsham
@@ -64,112 +72,13 @@
 92.27.117.115 topsex.uk www.topsex.uk topsham.topsex.uk
  
 #litchlight dot com (CONTRARIAN)
-92.27.117.115 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
+13.40.197.66 litchlight litchlight.com www.litchlight.com realm.litchlight.com wotlk.litchlight.com mysql.litchlight.com
 #local watchdog server currently disabled
 0.0.0.0 dog.litchlight.com
-192.168.18.102 thewhitelotus.litchlight.com
-6.6.6.6 thedarklotus.litchlight.com
-
-
-#SWCH dot CRANES (CONTRARIAN)
-92.27.117.115 swch.cranes www.swch.cranes 
- 
-
-########################################################################
-# MeshWorks Grid 20230206
-########################################################################
-
-
-########################################################################
-# dotAndrasta UNDERNET CORE
-########################################################################
-
-#primary / cloudflare hostname here
-92.27.117.115 cerberus.andrasta
-
-#dot andrasta UNDERNET
-92.27.117.115 andrasta
-
-#andrasta tld 
-92.27.117.115 andrasta.andrasta tld.andrasta andrasta.gov www.andrasta.gov
-
-#andrasta services
-92.27.117.115 admin.andrasta search.andrasta smtp.andrasta mail.andrasta games.andrasta dns.andrasta cloud.andrasta docker.andrasta hosts.andrasta
-
-########################################################################
-
-# ANDRASTA DOMAINS
-
-92.27.117.115 earthside.andrasta www.earthside.andrasta
-92.27.117.115 ops.andrasta www.ops.andrasta
-
-
-#dotIsland TLD (Contrarian-Extended)
-92.27.117.115 orbital.islands www.orbital.islands
-
-
-
-########################################################################
-#dotSark UNDERNET CORE
-########################################################################
-
-#primary / cloudflare hostname here
-92.27.117.115 cerberus.sark
-
-#dot sark UNDERNET
-92.27.117.115 sark
-
-#sark tld 
-92.27.117.115 sark.sark tld.sark sark.gov www.sark.sark www.tld.sark www.sark.gov
-
-#sark services
-92.27.117.115 admin.sark search.sark smtp.sark mail.sark games.sark dns.sark cloud.sark docker.sark hosts.sark
-92.27.117.115 www.admin.sark www.search.sark www.smtp.sark www.mail.sark www.games.sark www.dns.sark www.cloud.sark www.docker.sark www.hosts.sark
-
-########################################################################
-
-#sark domains
-
-92.27.117.115 box404.sark www.box404.sark
-92.27.117.115 reelhasallandpayne.sark www.reelhasallandpayne.sark
-92.27.117.115 jba.sark www.jba.sark
-
-########################################################################
-
-
-
-########################################################################
-#dotRockall (Sgeir Rocail) UNDERNET CORE
-########################################################################
-
-#primary / cloudflare hostname here
-92.27.117.115 cerberus.rockall
-
-#dot rockall UNDERNET
-92.27.117.115 rockall
-
-#rockall tld 
-92.27.117.115 rockall.rockall tld.rockall rockall.gov www.rockall.rockall www.tld.rockall www.rockall.gov
-
-#sark rockall
-92.27.117.115 admin.rockall search.rockall smtp.rockall mail.rockall games.rockall dns.rockall cloud.rockall docker.rockall hosts.rockall
-92.27.117.115 www.admin.rockall www.search.rockall www.smtp.rockall www.mail.rockall www.games.rockall www.dns.rockall www.cloud.rockall www.docker.rockall www.hosts.rockall
-
-
-########################################################################
-
-#rockall domains
-
-########################################################################
-# www.Sgeir-Rocail.Org.Uk
-# contrarian domain
-########################################################################
-
-92.27.117.115 www.sgeir-rocail.org.uk sgeir-rocail.org.uk 
-
-########################################################################
-
-
+92.27.117.115 battlegrounds.litchlight.com
+92.27.117.115 thewhitelotus.litchlight.com
+0.0.0.0 thedarklotus.litchlight.com
+0.0.0.0 thyalaworld.litchlight.com
 
 ########################################################################
 # End of custom host records.
